@@ -1,0 +1,26 @@
+{
+  "name": "raveuslugi-reborn-back",
+  "scripts": {
+    "dev": "bun run --hot src/index.ts",
+    "migrate": "npx drizzle-kit push"
+  },
+  "type": "module",
+  "dependencies": {
+    "@hono/oauth-providers": "^0.8.2",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/node": "^24.0.10",
+    "dotenv": "^17.0.1",
+    "drizzle-orm": "^0.44.2",
+    "hono": "^4.8.3",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.16.3",
+    "reflect-metadata": "^0.2.2",
+    "typeorm": "^0.3.25"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/pg": "^8.15.4",
+    "drizzle-kit": "^0.31.4",
+    "tsx": "^4.20.3"
+  }
+}
